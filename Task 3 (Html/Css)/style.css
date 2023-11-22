@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+.benifits{
+ margin-left: 10vw;
+
+    font-size: small;
+}
+
+.container {
+    width: 45vw;
+   margin-top: 10vh;
+    /* overflow: scroll; */
+    /* box-shadow: 4px 4px 4px solid white; */
+}
+
+.box {
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.down {
+    border-top: 1px solid rgb(168, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+
+.up {
+    padding: 20px;
+}
+
+.onetime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.savebtn {
+    background-color: rgb(234, 165, 27);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 15px;
+}
+
+.checkboxes {}
+
+.checkboxinside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkboxinsidediv {
+    display: flex;
+    align-items: center;
+}
+
+input{
+    padding: 5px;
+    height: 45px;
+}
